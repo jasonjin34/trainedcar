@@ -15,5 +15,5 @@ for i in range(8144):
     temp_str = temp_str + str(temp_i)
     f.write('pos/' + temp_str + '.jpg 1 0 0 100 40\n')
 
-for i in range(500):
+for i in range(514):
     fbg.write('neg/neg-' + str(i) + '.pgm\n')
